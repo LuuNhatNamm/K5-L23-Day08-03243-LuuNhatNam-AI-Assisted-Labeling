@@ -2,7 +2,7 @@
 
 - Họ và tên: Lưu Nhật Nam
 - MSHV: 202603243
-- Lớp: L2A (theo thông tin các bài lab trước)
+- Lớp: L2A
 - Tài khoản GitHub: LuuNhatNamm
 - Repo bài nộp: https://github.com/LuuNhatNamm/K5-L23-Day08-LuuNhatNam-03243--AI-Assisted-Labeling
 - Commit chốt nội dung bài: `f39935ef34b681f11698dba8da528fdac3626f61`.
