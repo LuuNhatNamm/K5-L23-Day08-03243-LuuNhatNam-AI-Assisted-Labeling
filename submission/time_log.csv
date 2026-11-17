@@ -1,1 +1,3 @@
 step,images,minutes,note
+gold_manual,4,10,Thời gian gán tay người dùng cung cấp
+batch_review,24,50,Thời gian duyệt người dùng cung cấp
