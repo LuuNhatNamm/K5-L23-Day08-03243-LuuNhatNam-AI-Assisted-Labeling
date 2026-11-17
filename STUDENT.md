@@ -1,19 +1,19 @@
 # Thông tin học viên
 
-- Họ và tên: <<>>
-- MSHV: <<>>
-- Lớp (L2 / L3 / khác): <<>>
-- Tài khoản GitHub: <<>>
-- Repo bài nộp (URL): <<>>
-- Commit chốt bài (hash): <<>>
-- Máy: <<hệ điều hành, GPU (CUDA / MPS / không có)>>
-- CVAT (Docker): <<phiên bản, ví dụ v2.81.0>>
+- Họ và tên: Lưu Nhật Nam
+- MSHV: 202603243
+- Lớp: L2A (theo thông tin các bài lab trước)
+- Tài khoản GitHub của repo origin: GlennQuagmiree
+- Repo bài nộp: https://github.com/GlennQuagmiree/K5-L23-Day08-AI-Assisted-Labeling
+- Commit chốt bài: điền hash sau khi commit bản nộp.
+- Máy: Windows, chạy pre-label trên CPU.
+- CVAT (Docker): 2.82.0, local.
 
-## Kết quả tóm tắt (điền cuối bài; số lấy từ `submission/qc/*`, kèm mẫu số)
+## Kết quả tóm tắt
 
-- Máy: accepted / edited / deleted: <<... / ... / ... (mẫu số: ... box máy)>>; added: <<... (mẫu số: ... đối tượng)>>
-- So với gold: precision / recall của **máy** <<... / ...>>
-- Bắt bẫy: <<.../12 = ...%>>
-- Thời gian: gán tay <<... phút/ảnh>>; duyệt có pre-label <<... phút/ảnh>>
-- Lỗi QC: <<...% theo ảnh (.../...)>>, <<...% theo đối tượng (.../...)>>
-- **Quyết định:** <<Release / Hold / Rework>> — lý do một dòng: <<...>>
+- Máy: accepted 388/432 (89,8%), edited 8/432 (1,9%), deleted 32/432 (7,4%) box máy. Added 44/440 (10,0%) đối tượng sau duyệt.
+- So với gold: precision 42/62 (67,7%), recall 42/53 (79,2%).
+- Bắt bẫy: 12/12 (100%) trên bản cuối.
+- Thời gian: gán tay 10 phút/4 ảnh (2,50 phút/ảnh), duyệt 50 phút/24 ảnh (2,08 phút/ảnh).
+- QC vòng 3: 0/6 ảnh lỗi và 0/99 đối tượng lỗi (0%).
+- Gợi ý của script: RELEASE vì 0/6 ảnh lỗi trong mẫu QC và bắt đủ 12/12 bẫy. Người gán nhãn xác nhận quyết định cuối.
